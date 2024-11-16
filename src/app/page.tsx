@@ -32,7 +32,7 @@ const HomePage: React.FC<HomePageProps> = ({ profileImageSrc = "/Screenshot_2023
           >
             <Image
               src={profileImageSrc} // Image passed via props
-              alt={`${name}'s Profile`}
+              alt={`${name}&apos;s Profile`}
               width={300}
               height={300}
               className="object-cover w-full h-full"
